@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.walmart.test.packag.TestSignUpPage">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyEmptyEmail"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.walmart.test.packag.TestSignUpPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

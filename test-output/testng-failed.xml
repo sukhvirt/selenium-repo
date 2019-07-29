@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Walmart Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.walmart.extentreport.extentReportListenerTestNG"/>
+  </listeners>
+  <test thread-count="5" name="Walmart App Test Cases(failed)">
+    <classes>
+      <class name="com.walmart.test.packag.TestSignUpPage">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyEmptyEmail"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.walmart.test.packag.TestSignUpPage -->
+      <class name="com.walmart.test.packag.TestLoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTitleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.walmart.test.packag.TestLoginPage -->
+    </classes>
+  </test> <!-- Walmart App Test Cases(failed) -->
+</suite> <!-- Failed suite [Walmart Application Test Automation Test Suite] -->
